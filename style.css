@@ -1,0 +1,50 @@
+/* Apply global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.webp'); /* Replace with the actual file name */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style for the main container */
+.container {
+    background: rgba(193, 205, 209, 0.9); /* Slight transparency for a clean look */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+
+/* Style for dropdowns and buttons */
+select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the graph container (SVG) */
+svg {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
